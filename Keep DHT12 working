@@ -1,0 +1,13 @@
+
+/////// normal code
+
+delay(250);
+
+// deepsleep in microseconds, here 5 min
+
+  ESP.deepSleep(5 * 60 * 1000000);
+ 
+// I added some  startup time here
+
+    delay(1000 * 30);
+    }
